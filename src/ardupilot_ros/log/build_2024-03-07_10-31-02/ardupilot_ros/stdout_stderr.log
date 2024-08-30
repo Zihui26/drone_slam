@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ardupilot_ros.egg-info/PKG-INFO
+writing dependency_links to ardupilot_ros.egg-info/dependency_links.txt
+writing entry points to ardupilot_ros.egg-info/entry_points.txt
+writing requirements to ardupilot_ros.egg-info/requires.txt
+writing top-level names to ardupilot_ros.egg-info/top_level.txt
+reading manifest file 'ardupilot_ros.egg-info/SOURCES.txt'
+writing manifest file 'ardupilot_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot-ros.egg-link (link to .)
+Installing joy_controller script to /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/ardupilot_ros
+
+Installed /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros
+running install_data

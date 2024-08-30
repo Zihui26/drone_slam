@@ -1,0 +1,2 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share;/home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_description/share
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/ardupilot_gz_description/models

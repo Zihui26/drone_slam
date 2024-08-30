@@ -1,0 +1,3 @@
+[console_scripts]
+joy_controller = ardupilot_ros.joy_controller:main
+

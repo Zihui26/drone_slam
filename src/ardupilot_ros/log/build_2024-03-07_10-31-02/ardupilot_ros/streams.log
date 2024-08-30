@@ -1,0 +1,21 @@
+[0.341s] Invoking command in '/home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/prefix_override:/home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build --no-deps install_data
+[0.481s] running develop
+[0.482s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.482s]   warnings.warn(
+[0.483s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.483s]   warnings.warn(
+[0.574s] running egg_info
+[0.574s] writing ardupilot_ros.egg-info/PKG-INFO
+[0.574s] writing dependency_links to ardupilot_ros.egg-info/dependency_links.txt
+[0.574s] writing entry points to ardupilot_ros.egg-info/entry_points.txt
+[0.574s] writing requirements to ardupilot_ros.egg-info/requires.txt
+[0.574s] writing top-level names to ardupilot_ros.egg-info/top_level.txt
+[0.575s] reading manifest file 'ardupilot_ros.egg-info/SOURCES.txt'
+[0.575s] writing manifest file 'ardupilot_ros.egg-info/SOURCES.txt'
+[0.576s] running build_ext
+[0.576s] Creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot-ros.egg-link (link to .)
+[0.576s] Installing joy_controller script to /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/ardupilot_ros
+[0.576s] 
+[0.576s] Installed /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros
+[0.576s] running install_data
+[0.588s] Invoked command in '/home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/prefix_override:/home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build --no-deps install_data

@@ -1,0 +1,44 @@
+running egg_info
+creating build/ardupilot_ros/ardupilot_ros.egg-info
+writing build/ardupilot_ros/ardupilot_ros.egg-info/PKG-INFO
+writing dependency_links to build/ardupilot_ros/ardupilot_ros.egg-info/dependency_links.txt
+writing entry points to build/ardupilot_ros/ardupilot_ros.egg-info/entry_points.txt
+writing requirements to build/ardupilot_ros/ardupilot_ros.egg-info/requires.txt
+writing top-level names to build/ardupilot_ros/ardupilot_ros.egg-info/top_level.txt
+writing manifest file 'build/ardupilot_ros/ardupilot_ros.egg-info/SOURCES.txt'
+reading manifest file 'build/ardupilot_ros/ardupilot_ros.egg-info/SOURCES.txt'
+adding license file 'COPYING.txt'
+writing manifest file 'build/ardupilot_ros/ardupilot_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build
+creating /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib
+creating /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib/ardupilot_ros
+copying ardupilot_ros/__init__.py -> /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib/ardupilot_ros
+copying ardupilot_ros/joy_controller.py -> /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib/ardupilot_ros
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros
+copying /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib/ardupilot_ros/__init__.py -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros
+copying /home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/build/lib/ardupilot_ros/joy_controller.py -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros
+byte-compiling /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros/joy_controller.py to joy_controller.cpython-310.pyc
+running install_data
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ament_index
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ament_index/resource_index
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ament_index/resource_index/packages
+copying resource/ardupilot_ros -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/launch
+copying launch/cartographer.launch.py -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/launch
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/config
+copying config/cartographer.lua -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/config
+creating /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/rviz
+copying rviz/cartographer.rviz -> /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/share/ardupilot_ros/rviz
+running install_egg_info
+Copying build/ardupilot_ros/ardupilot_ros.egg-info to /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/python3.10/site-packages/ardupilot_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_controller script to /home/ws2/ros2_ws/src/ardupilot_ros/install/ardupilot_ros/lib/ardupilot_ros
+writing list of installed files to '/home/ws2/ros2_ws/src/ardupilot_ros/build/ardupilot_ros/install.log'

@@ -1,0 +1,316 @@
+[0.013s] Invoking command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake /home/ws2/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo -DCMAKE_INSTALL_PREFIX=/home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.772s] -- Found Python3: /home/ws2/mambaforge/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.876s] -- Looking for gz-plugin2 -- found version 2.0.1
+[0.877s] -- Searching for dependencies of gz-plugin2
+[0.881s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.881s] -- Searching for dependencies of gz-utils2
+[0.882s] -- Searching for <gz-utils2> component [cli]
+[0.886s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.886s] -- Searching for dependencies of gz-utils2-cli
+[0.887s] -- Searching for <gz-plugin2> component [register]
+[0.891s] -- Looking for gz-plugin2-register -- found version 2.0.1
+[0.891s] -- Searching for dependencies of gz-plugin2-register
+[0.896s] -- Looking for gz-common5 -- found version 5.4.0
+[0.896s] -- Searching for dependencies of gz-common5
+[0.896s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.897s] -- Looking for dlfcn.h - found
+[0.903s] -- Looking for libdl - found
+[0.904s] -- Found DL: TRUE  
+[0.908s] -- Checking for module 'uuid'
+[0.917s] --   Found uuid, version 2.37.2
+[0.930s] -- Found UUID: TRUE  
+[0.931s] -- Searching for <gz-common5> component [profiler]
+[0.935s] -- Looking for gz-common5-profiler -- found version 5.4.0
+[0.935s] -- Searching for dependencies of gz-common5-profiler
+[0.946s] -- Looking for gz-sim7 -- found version 7.5.0
+[0.946s] -- Searching for dependencies of gz-sim7
+[0.950s] -- Looking for sdformat13 -- found version 13.5.0
+[0.950s] -- Searching for dependencies of sdformat13
+[0.953s] -- Checking for module 'tinyxml2'
+[0.962s] --   Found tinyxml2, version 9.0.0
+[0.981s] -- Looking for gz-math7 -- found version 7.2.0
+[0.981s] -- Searching for dependencies of gz-math7
+[0.981s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.982s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.983s] -- Looking for gz-plugin2 -- found version 2.0.1
+[0.983s] -- Searching for dependencies of gz-plugin2
+[0.983s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.983s] -- Searching for <gz-plugin2> component [loader]
+[0.987s] -- Looking for gz-plugin2-loader -- found version 2.0.1
+[0.987s] -- Searching for dependencies of gz-plugin2-loader
+[0.987s] -- Searching for <gz-plugin2> component [register]
+[0.991s] -- Looking for gz-transport12 -- found version 12.2.0
+[0.992s] -- Searching for dependencies of gz-transport12
+[1.067s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.078s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.080s] -- Checking for module 'libzmq >= 4'
+[1.090s] --   Found libzmq , version 4.3.4
+[1.108s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.113s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.116s] -- Looking for gz-msgs9 -- found version 9.4.0
+[1.116s] -- Searching for dependencies of gz-msgs9
+[1.130s] -- Looking for gz-math7 -- found version 7.2.0
+[1.134s] -- Searching for <gz-transport12> component [log]
+[1.137s] -- Looking for gz-transport12-log -- found version 12.2.0
+[1.137s] -- Searching for dependencies of gz-transport12-log
+[1.138s] -- Searching for <gz-transport12> component [parameters]
+[1.142s] -- Looking for gz-transport12-parameters -- found version 12.2.0
+[1.142s] -- Searching for dependencies of gz-transport12-parameters
+[1.143s] -- Looking for gz-msgs9 -- found version 9.4.0
+[1.143s] -- Looking for gz-common5 -- found version 5.4.0
+[1.143s] -- Searching for dependencies of gz-common5
+[1.143s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.144s] -- Looking for dlfcn.h - found
+[1.144s] -- Looking for libdl - found
+[1.148s] -- Searching for <gz-common5> component [profiler]
+[1.148s] -- Searching for <gz-common5> component [events]
+[1.153s] -- Looking for gz-common5-events -- found version 5.4.0
+[1.153s] -- Searching for dependencies of gz-common5-events
+[1.153s] -- Looking for gz-math7 -- found version 7.2.0
+[1.153s] -- Searching for <gz-common5> component [av]
+[1.157s] -- Looking for gz-common5-av -- found version 5.4.0
+[1.157s] -- Searching for dependencies of gz-common5-av
+[1.161s] -- Checking for module 'libswscale'
+[1.169s] --   Found libswscale, version 5.9.100
+[1.190s] -- Found SWSCALE: TRUE  
+[1.195s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.205s] --   Found libavdevice , version 58.13.100
+[1.225s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.228s] -- Checking for module 'libavformat'
+[1.237s] --   Found libavformat, version 58.76.100
+[1.262s] -- Found AVFORMAT: TRUE  
+[1.267s] -- Checking for module 'libavcodec'
+[1.285s] --   Found libavcodec, version 58.134.100
+[1.332s] -- Found AVCODEC: TRUE  
+[1.337s] -- Checking for module 'libavutil'
+[1.354s] --   Found libavutil, version 56.70.100
+[1.389s] -- Found AVUTIL: TRUE  
+[1.390s] -- Searching for <gz-common5> component [io]
+[1.397s] -- Looking for gz-common5-io -- found version 5.4.0
+[1.397s] -- Searching for dependencies of gz-common5-io
+[1.403s] -- Looking for gz-fuel_tools8 -- found version 8.0.2
+[1.403s] -- Searching for dependencies of gz-fuel_tools8
+[1.453s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.458s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[1.458s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.458s]   CMake.
+[1.458s] 
+[1.458s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.458s]   CMake that the project does not need compatibility with older versions.
+[1.458s] Call Stack (most recent call first):
+[1.458s]   /usr/share/cmake/gz-cmake3/cmake3/FindJSONCPP.cmake:34 (find_package)
+[1.458s]   /usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools8/gz-fuel_tools8-config.cmake:94 (find_package)
+[1.458s]   /usr/lib/x86_64-linux-gnu/cmake/gz-sim7/gz-sim7-config.cmake:97 (find_package)
+[1.458s]   CMakeLists.txt:16 (find_package)
+[1.458s] 
+[1.458s] [0m
+[1.462s] -- Checking for module 'jsoncpp'
+[1.473s] --   Found jsoncpp, version 1.9.5
+[1.493s] -- Found JSONCPP: TRUE  
+[1.503s] -- Checking for module 'libzip'
+[1.512s] --   Found libzip, version 1.7.3
+[1.557s] -- Found ZIP: TRUE  
+[1.558s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.560s] -- Looking for gz-common5 -- found version 5.4.0
+[1.562s] -- Looking for gz-math7 -- found version 7.2.0
+[1.562s] -- Looking for gz-msgs9 -- found version 9.4.0
+[1.568s] -- Looking for gz-gui7 -- found version 7.2.0
+[1.568s] -- Searching for dependencies of gz-gui7
+[1.585s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.585s] -- Looking for gz-math7 -- found version 7.2.0
+[1.585s] -- Looking for gz-common5 -- found version 5.4.0
+[1.586s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.586s] -- Looking for gz-transport12 -- found version 12.2.0
+[1.590s] -- Looking for gz-rendering7 -- found version 7.4.0
+[1.590s] -- Searching for dependencies of gz-rendering7
+[1.590s] -- Looking for gz-math7 -- found version 7.2.0
+[1.590s] -- Searching for dependencies of gz-math7
+[1.590s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.590s] -- Searching for <gz-math7> component [eigen3]
+[1.595s] -- Looking for gz-math7-eigen3 -- found version 7.2.0
+[1.595s] -- Searching for dependencies of gz-math7-eigen3
+[1.602s] -- Looking for gz-common5 -- found version 5.4.0
+[1.602s] -- Searching for dependencies of gz-common5
+[1.603s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.603s] -- Looking for dlfcn.h - found
+[1.603s] -- Looking for libdl - found
+[1.607s] -- Searching for <gz-common5> component [graphics]
+[1.611s] -- Looking for gz-common5-graphics -- found version 5.4.0
+[1.611s] -- Searching for dependencies of gz-common5-graphics
+[1.611s] -- Looking for gz-math7 -- found version 7.2.0
+[1.620s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[1.621s] -- Searching for <gz-common5> component [events]
+[1.621s] -- Searching for <gz-common5> component [geospatial]
+[1.625s] -- Looking for gz-common5-geospatial -- found version 5.4.0
+[1.625s] -- Searching for dependencies of gz-common5-geospatial
+[1.625s] -- Looking for gz-math7 -- found version 7.2.0
+[1.626s] -- Looking for gz-common5 -- found version 5.4.0
+[1.626s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.626s] -- Searching for dependencies of gz-plugin2
+[1.627s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.627s] -- Searching for <gz-plugin2> component [all]
+[1.631s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+[1.631s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.631s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.644s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.645s] -- Looking for gz-msgs9 -- found version 9.4.0
+[1.672s] -- Looking for gz-physics6 -- found version 6.4.0
+[1.672s] -- Searching for dependencies of gz-physics6
+[1.672s] -- Looking for gz-math7 -- found version 7.2.0
+[1.673s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.673s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.674s] -- Searching for <gz-physics6> component [heightmap]
+[1.678s] -- Looking for gz-physics6-heightmap -- found version 6.4.0
+[1.678s] -- Searching for dependencies of gz-physics6-heightmap
+[1.678s] -- Looking for gz-common5 -- found version 5.4.0
+[1.678s] -- Searching for <gz-physics6> component [mesh]
+[1.682s] -- Looking for gz-physics6-mesh -- found version 6.4.0
+[1.682s] -- Searching for dependencies of gz-physics6-mesh
+[1.682s] -- Looking for gz-common5 -- found version 5.4.0
+[1.682s] -- Searching for <gz-physics6> component [sdf]
+[1.686s] -- Looking for gz-physics6-sdf -- found version 6.4.0
+[1.686s] -- Searching for dependencies of gz-physics6-sdf
+[1.687s] -- Looking for sdformat13 -- found version 13.5.0
+[1.692s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.692s] -- Searching for dependencies of gz-sensors7
+[1.707s] -- Looking for gz-math7 -- found version 7.2.0
+[1.707s] -- Looking for gz-common5 -- found version 5.4.0
+[1.708s] -- Looking for gz-transport12 -- found version 12.2.0
+[1.708s] -- Looking for gz-rendering7 -- found version 7.4.0
+[1.709s] -- Looking for gz-msgs9 -- found version 9.4.0
+[1.709s] -- Looking for sdformat13 -- found version 13.5.0
+[1.709s] -- Searching for <gz-sensors7> component [air_pressure]
+[1.713s] -- Looking for gz-sensors7-air_pressure -- found version 7.2.0
+[1.714s] -- Searching for dependencies of gz-sensors7-air_pressure
+[1.714s] -- Searching for <gz-sensors7> component [air_speed]
+[1.718s] -- Looking for gz-sensors7-air_speed -- found version 7.2.0
+[1.718s] -- Searching for dependencies of gz-sensors7-air_speed
+[1.718s] -- Searching for <gz-sensors7> component [altimeter]
+[1.722s] -- Looking for gz-sensors7-altimeter -- found version 7.2.0
+[1.722s] -- Searching for dependencies of gz-sensors7-altimeter
+[1.723s] -- Searching for <gz-sensors7> component [imu]
+[1.727s] -- Looking for gz-sensors7-imu -- found version 7.2.0
+[1.727s] -- Searching for dependencies of gz-sensors7-imu
+[1.727s] -- Searching for <gz-sensors7> component [force_torque]
+[1.732s] -- Looking for gz-sensors7-force_torque -- found version 7.2.0
+[1.732s] -- Searching for dependencies of gz-sensors7-force_torque
+[1.732s] -- Searching for <gz-sensors7> component [logical_camera]
+[1.736s] -- Looking for gz-sensors7-logical_camera -- found version 7.2.0
+[1.736s] -- Searching for dependencies of gz-sensors7-logical_camera
+[1.737s] -- Searching for <gz-sensors7> component [magnetometer]
+[1.740s] -- Looking for gz-sensors7-magnetometer -- found version 7.2.0
+[1.740s] -- Searching for dependencies of gz-sensors7-magnetometer
+[1.741s] -- Searching for <gz-sensors7> component [navsat]
+[1.745s] -- Looking for gz-sensors7-navsat -- found version 7.2.0
+[1.745s] -- Searching for dependencies of gz-sensors7-navsat
+[1.746s] -- Searching for <gz-sensors7> component [rendering]
+[1.750s] -- Looking for gz-sensors7-rendering -- found version 7.2.0
+[1.750s] -- Searching for dependencies of gz-sensors7-rendering
+[1.751s] -- Searching for <gz-sensors7> component [lidar]
+[1.755s] -- Looking for gz-sensors7-lidar -- found version 7.2.0
+[1.755s] -- Searching for dependencies of gz-sensors7-lidar
+[1.755s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.756s] -- Searching for <gz-sensors7> component [gpu_lidar]
+[1.760s] -- Looking for gz-sensors7-gpu_lidar -- found version 7.2.0
+[1.760s] -- Searching for dependencies of gz-sensors7-gpu_lidar
+[1.760s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.760s] -- Searching for <gz-sensors7> component [camera]
+[1.765s] -- Looking for gz-sensors7-camera -- found version 7.2.0
+[1.765s] -- Searching for dependencies of gz-sensors7-camera
+[1.765s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.766s] -- Searching for <gz-sensors7> component [boundingbox_camera]
+[1.769s] -- Looking for gz-sensors7-boundingbox_camera -- found version 7.2.0
+[1.769s] -- Searching for dependencies of gz-sensors7-boundingbox_camera
+[1.770s] -- Searching for <gz-sensors7> component [segmentation_camera]
+[1.774s] -- Looking for gz-sensors7-segmentation_camera -- found version 7.2.0
+[1.774s] -- Searching for dependencies of gz-sensors7-segmentation_camera
+[1.775s] -- Searching for <gz-sensors7> component [depth_camera]
+[1.779s] -- Looking for gz-sensors7-depth_camera -- found version 7.2.0
+[1.779s] -- Searching for dependencies of gz-sensors7-depth_camera
+[1.779s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.780s] -- Searching for <gz-sensors7> component [rgbd_camera]
+[1.783s] -- Looking for gz-sensors7-rgbd_camera -- found version 7.2.0
+[1.783s] -- Searching for dependencies of gz-sensors7-rgbd_camera
+[1.784s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.784s] -- Searching for <gz-sensors7> component [thermal_camera]
+[1.788s] -- Looking for gz-sensors7-thermal_camera -- found version 7.2.0
+[1.788s] -- Searching for dependencies of gz-sensors7-thermal_camera
+[1.788s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.789s] -- Searching for <gz-sensors7> component [wide_angle_camera]
+[1.793s] -- Looking for gz-sensors7-wide_angle_camera -- found version 7.2.0
+[1.793s] -- Searching for dependencies of gz-sensors7-wide_angle_camera
+[1.793s] -- Looking for gz-rendering7 -- found version 7.4.0
+[1.794s] -- Looking for gz-math7 -- found version 7.2.0
+[1.794s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.813s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.897s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.898s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: /home/ws2/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo/include
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.899s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.899s] -- Configured cpplint exclude dirs and/or files: 
+[1.900s] -- Added test 'lint_cmake' to check CMake code style
+[1.901s] -- Added test 'pclint' to perform static code analysis on C / C++ code
+[1.903s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pclint/cmake/ament_pclint.cmake:117 (message):
+[1.903s]   WARNING: pclp64_linux not found, skipping pclint test creation
+[1.903s] Call Stack (most recent call first):
+[1.903s]   /opt/ros/humble/share/ament_cmake_pclint/cmake/ament_cmake_pclint_lint_hook.cmake:25 (ament_pclint)
+[1.903s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.903s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[1.903s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.903s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.903s]   CMakeLists.txt:80 (ament_package)
+[1.903s] 
+[1.903s] [0m
+[1.903s] -- Added test 'xmllint' to check XML markup files
+[1.905s] -- Configuring done (1.9s)
+[1.914s] -- Generating done (0.0s)
+[1.916s] -- Build files have been written to: /home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo
+[1.930s] Invoked command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake /home/ws2/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo -DCMAKE_INSTALL_PREFIX=/home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo
+[1.931s] Invoking command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake --build /home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo -- -j24 -l24
+[1.965s] [ 25%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[1.965s] [ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[2.036s] [ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[2.036s] [100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[2.131s] [100%] Built target BasicSystem
+[2.133s] [100%] Built target FullSystem
+[2.137s] Invoked command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake --build /home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo -- -j24 -l24
+[2.171s] Invoking command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake --install /home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo
+[2.198s] -- Install configuration: ""
+[2.198s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/lib/ardupilot_gz_gazebo/libBasicSystem.so
+[2.198s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/lib/ardupilot_gz_gazebo/libFullSystem.so
+[2.198s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/iris_runway.sdf
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/iris_maze.sdf
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/wildthumper_playpen.sdf
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/ardupilot_gz_gazebo.dsv
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/ardupilot_gz_gazebo.sh
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ament_index/resource_index/package_run_dependencies/ardupilot_gz_gazebo
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ament_index/resource_index/parent_prefix_path/ardupilot_gz_gazebo
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/ament_prefix_path.sh
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/ament_prefix_path.dsv
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/path.sh
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/environment/path.dsv
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/local_setup.bash
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/local_setup.sh
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/local_setup.zsh
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/local_setup.dsv
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/package.dsv
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ament_index/resource_index/packages/ardupilot_gz_gazebo
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/cmake/ardupilot_gz_gazeboConfig.cmake
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/cmake/ardupilot_gz_gazeboConfig-version.cmake
+[2.199s] -- Installing: /home/ws2/ros2_ws/src/ardupilot_gz/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/package.xml
+[2.203s] Invoked command in '/home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws2/ros2_ws/install/py_srvcli:/home/ws2/ros2_ws/install/py_pubsub:/home/ws2/ros2_ws/install/ardupilot_ros:/home/ws2/ros2_ws/install/python_parameters:/home/ws2/ros2_ws/install/mission_test:/home/ws2/ros2_ws/install/ardupilot_dds_tests:/home/ws2/ros2_ws/install/launch_testing_examples:/home/ws2/ros2_ws/install/jetson_pkg:/home/ws2/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ws2/ros2_ws/install/examples_rclpy_minimal_service:/home/ws2/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ws2/ros2_ws/install/examples_rclpy_minimal_client:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ws2/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ws2/ros2_ws/install/examples_rclpy_guard_conditions:/home/ws2/ros2_ws/install/examples_rclpy_executors:/home/ws2/glenn/ros2/install/vision:/home/ws2/glenn/ros2/install/nav:/home/ws2/glenn/ros2/install/gps:/home/ws2/glenn/ros2/install/drone_test:/home/ws2/glenn/ros2/install/isaac_ros_test:/home/ws2/glenn/ros2/install/GPS:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/ws2/.local/bin/cmake --install /home/ws2/ros2_ws/src/ardupilot_gz/build/ardupilot_gz_gazebo
